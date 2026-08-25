@@ -1,0 +1,35 @@
+{
+  "name": "fantalab-cli",
+  "version": "1.0.0",
+  "description": "FantaLab CLI: manage strategies, players, fascias, prices and notes via API. Headless, never touches your browser.",
+  "main": "bin/fantalab-cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "start": "node bin/fantalab-cli.js",
+    "login": "node bin/fantalab-cli.js login",
+    "cleanup": "node bin/cleanup.js"
+  },
+  "keywords": [
+    "fantacalcio",
+    "fantalab",
+    "cli",
+    "asta",
+    "fantasy-football",
+    "serie-a"
+  ],
+  "author": "alemazzo",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.62.1"
+  },
+  "bin": {
+    "fantalab-cli": "bin/fantalab-cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

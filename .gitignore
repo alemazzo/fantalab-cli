@@ -1,0 +1,19 @@
+# Dipendenze
+node_modules/
+
+# Token e dati sensibili (MAI committare!)
+.token-cache.json
+*.token-cache.json
+
+# File di sessione browser
+fantalab_profile/
+fantalab_chromium_profile/
+fantalab_token_profile/
+fantalab_state.json
+
+# Log e output
+*.log
+api_sniff*.json
+
+# Sistema
+.DS_Store
